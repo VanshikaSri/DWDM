@@ -306,7 +306,7 @@ def main():
 	s = set()
 
 #	vocabFileptr = open("vocab.txt",'w')
-	listFileptr = open("listTweets.txt",'w')
+	listFileptr = open("testListTweets.txt",'w')
 	for each_tweet in fp:
 		result = re.sub(r"http\S+", "", each_tweet)
 		result1 = re.sub(r"@\S+", "", result)
